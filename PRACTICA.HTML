@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de la Informática</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        form {
+            max-width: 600px;
+            margin: 20px 0;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Historia de la Informática</h1>
+        <nav>
+            <ul>
+                <li><a href="#antiguedad">Antigüedad</a></li>
+                <li><a href="#sigloXX">Siglo XX</a></li>
+                <li><a href="#sigloXXI">Siglo XXI</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="antiguedad">
+            <h2>Antigüedad</h2>
+            <p>La historia de la informática comienza con la necesidad de contar y calcular. Desde los ábacos hasta las primeras calculadoras mecánicas, la humanidad ha buscado formas de procesar información.</p>
+            <img src="https://example.com/abaco.jpg" alt="Ábaco" />
+        </section>
+
+        <section id="sigloXX">
+            <h2>Siglo XX</h2>
+            <p>El siglo XX vio el desarrollo de los primeros ordenadores electrónicos. Durante la Segunda Guerra Mundial, se crearon máquinas como la ENIAC, que marcó un hito en la computación.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Evento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1943</td>
+                        <td>Se construye la ENIAC</td>
+                    </tr>
+                    <tr>
+                        <td>1956</td>
+                        <td>Se desarrolla el primer ordenador comercial</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img src="https://example.com/enic.jpg" alt="ENIAC" />
+        </section>
+
+        <section id="sigloXXI">
+            <h2>Siglo XXI</h2>
+            <p>Hoy en día, la informática está presente en casi todos los aspectos de nuestra vida. Desde dispositivos móviles hasta inteligencia artificial, la tecnología continúa avanzando rápidamente.</p>
+            <ul>
+                <li>Redes Sociales</li>
+                <li>Inteligencia Artificial</li>
+                <li>Big Data</li>
+                <li>Computación Cuántica</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
